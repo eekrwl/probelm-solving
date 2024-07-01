@@ -2,3 +2,28 @@
 ._.DS_Store
 **/.DS_Store
 **/._.DS_Store
+
+# Ignore all files by default
+*
+
+# Allow only specific file extensions
+!*.cpp
+!*.py
+!*.java
+
+# Ignore compiled files and executables
+*.exe
+*.out
+*.o
+*.class
+*.dll
+*.so
+
+# Ignore other common generated files
+*.log
+*.tmp
+*.cache
+.DS_Store
+
+# Ignore directories
+*/

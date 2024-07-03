@@ -1,22 +1,7 @@
+# Ignore all files by default
+*
+
 # Allow only specific file extensions
 !*.cpp
 !*.py
 !*.java
-
-# Ignore compiled files and executables
-*.exe
-*.out
-*.o
-*.class
-*.dll
-*.so
-
-# Ignore executables without extensions
-# This pattern assumes that the compiled executables are in the root directory or specific directories
-[a-zA-Z0-9]*
-
-# Ignore other common generated files
-*.log
-*.tmp
-*.cache
-.DS_Store

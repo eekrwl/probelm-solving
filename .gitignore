@@ -1,7 +1,1 @@
-# Ignore all files by default
-*
-
-# Allow only specific file extensions
-!*.cpp
-!*.py
-!*.java
+*.DS_Store
